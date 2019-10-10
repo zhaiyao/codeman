@@ -11,11 +11,11 @@ import java.util.List;
 @ToString(callSuper = true)
 @EqualsAndHashCode(callSuper = false)
 public class AbcDTO {
-
     public static void main(String [] args) {
         AbcDTO abcDTO = JSON.parseObject("{}", AbcDTO.class);
     }
 
+    // by zhaiyao, for fastjson test
     private List<Alphabet> list100;
     private List<Alphabet> list101;
     private List<Alphabet> list102;
