@@ -84,6 +84,7 @@ public class AbcDTO {
 
     @Data
     public static class Alphabet {
+        // by zhaiyao, for fastjson test
         private List<Double> a;
         private List<Double> b;
         private List<Double> c;
