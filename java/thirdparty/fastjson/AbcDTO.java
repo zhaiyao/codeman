@@ -15,7 +15,7 @@ public class AbcDTO {
         AbcDTO abcDTO = JSON.parseObject("{}", AbcDTO.class);
     }
 
-    // by zhaiyao, for fastjson test
+    // provide by zhaiyao, for fastjson test
     private List<Alphabet> list100;
     private List<Alphabet> list101;
     private List<Alphabet> list102;
@@ -84,7 +84,7 @@ public class AbcDTO {
 
     @Data
     public static class Alphabet {
-        // by zhaiyao, for fastjson test
+        // provide by zhaiyao, for fastjson test
         private List<Double> a;
         private List<Double> b;
         private List<Double> c;
